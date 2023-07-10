@@ -47,7 +47,7 @@ jobs:
           channel: 'stable'     
 
       - name: Building Web Project
-        run: flutter build web --web-renderer canvaskit --release --base-href "/responsive_flutter/"
+        run: flutter build web --web-renderer canvaskit --release --base-href "/flutter_responsive/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

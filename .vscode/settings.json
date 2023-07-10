@@ -14,7 +14,7 @@
     "**/android": true,
     "**/linux": true,
     "**/macos": true,
-    "**/web": true,
+    "**/web": false,
     "**/.metadata": true,
     "**/pubspec.lock": true,
     "**/*.lock": true,
